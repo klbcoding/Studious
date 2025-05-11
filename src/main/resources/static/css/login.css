@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.login-page-img {
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+.login-container {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.login-form {
+    margin-top: 30%;
+ 
+}
+
+.email-input {
+    margin-left: 30%;
+    margin-bottom: 4%;
+}
+
+.password-input {
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
+
+input {
+    padding: 6px;
+}
+
+.login-button {
+    margin-left: 48%;
+    background-color: rgb(32, 120, 235);
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}

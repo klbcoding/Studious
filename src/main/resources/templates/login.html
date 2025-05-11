@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" th:href="@{./css/login.css}" />
+         <title>Studious - Login</title>
+    </head>
+    <body>
+        <img class="login-page-img" th:src="@{./images/academic_hat.jpg}">
+        <div class="login-container">
+            <div style="font-size: 45px;">Welcome to Student Portal</div>
+            <form class="login-form" method="post" th:action="@{/login}" th:object="${student}">
+                <div class="email-input">
+                    <span>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" th:field=*{email} required>
+                    </span>
+                </div>
+
+                <div class="password-input">
+                    <span>
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password" th:field="*{password}" required>
+                    </span>
+                </div>
+                <button id="login-btn" class="login-button" type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.greet-text {
+    position: absolute;
+    color: skyblue;
+    left: 5%;
+    top: 15%;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.student-data {
+    position: absolute;
+    color: white;
+    left: 5%;
+    top: 25%;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.news-container {
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-container {
+    position: absolute;
+    width: 20%;
+    right: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 100;
+}

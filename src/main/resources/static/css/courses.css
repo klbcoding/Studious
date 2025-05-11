@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.search-option {
+    position: absolute;
+    left: 42%;
+    top: 22%;
+    color: burlywood;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#search-mode {
+    padding: 5px 8px;
+}
+
+#search-container {
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    display: none;
+    color: burlywood;
+}
+
+
+.submit {
+    position: absolute;
+    right: 35%;
+    top: 22%;
+    background-color: bisque;
+    border-color: black;
+    font-size: 15px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.table-container th {
+    padding: 4px 20px;
+    border-bottom: 3px solid black;
+}
+
+.table-container #course {
+    width: 30%;
+}
+
+
+td {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+}
