@@ -1,5 +1,7 @@
 # Studious
 A student web application that can display a plethora of courses offered, and share news in a University.
+### Video showcase
+Link to video [here](https://youtu.be/OpvaGwROS34)
 
 This is my first project using [Spring Boot](https://spring.io/projects/spring-boot#overview), a Java framework for running Java applications that is easy to configure and setup. I have also used MySQL database to simulate a relational database management system running on a server, instead of using an in-memory database like SQLite in my other projects.
 
@@ -33,7 +35,7 @@ For a step-by-step guide on setting up your own MySQL server, you may refer to [
 7. Replace the `src` file with this repository's [src](src) file.
 8. Check that the `pom.xml` file generated contains the following dependencies:
 
-![dependencies](media\dependencies.png)
+![dependencies](media/dependencies.png)
 
 ### MySQL Workbench
 After setting up the program, you have to set up the database as well. I have created 2 tables and 1 index, namely `students`, `courses` and `student_idx` respectively.  
@@ -41,7 +43,7 @@ To use MySQL Workbench and create the tables for this project, perform the follo
 1. Go to *Start* on Windows and search "MySQL Workbench 8.0 CE".
 2. After opening the app, click on the local instance created on localhost:3306, and login with your "root" credentials.
 3. Once inside the local instance, you will see the MySQL 8.0 ribbon, containing tabs and buttons that provide access to various commands and features.
-![](media\mysql-ribbon.png)  
+![](media/mysql-ribbon.png)  
 The <span style="color: #e5de00">yellow highlighted</span> button allows you to create a SQL tab to run queries. The <span style="color: #00ff00">green highlighted</span> button allows you to run SQL queries.  
 4. Run the following commands in your newly created tab:  
 `create database my_db;` - creates a database.  
