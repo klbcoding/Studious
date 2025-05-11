@@ -14,7 +14,7 @@ You can download the installer using the link [here](https://dev.mysql.com/downl
 
 Once on the webpage, locate **(mysql-installer-community-8.0.42.0.msi)** and click "Download".
 
-![](media\mysql-installer.png)
+![](media/mysql-installer.png)
 
 ### 2. Navigating the installer
 
