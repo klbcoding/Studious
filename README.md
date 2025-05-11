@@ -107,8 +107,6 @@ while (rs.next()) {
 ### Login page
 The login page ensures that only registered students of the University are able to access the application. Only students in the `students` table in MySQL will be able to log in. An invalid login attempt will lead to an error popup. The program will query for an input if the user tries to submit an empty field.
 
-![login-showcase](youtube_link)
-
 ### Home page
 Upon reaching the home page, the program greets the student based on the time set in the client's machine. For example, a student will be greeted with "Good Evening" when the time is between 6.00 pm and 11.59 pm.
 ```
@@ -130,16 +128,12 @@ The date is received via the Date object in JavaScript. A JavaScript date is spe
 ### Navigation bar
 A navigation bar provides the ease of accessing different pages of a web application. This enhances the overall User eXperience (UX).
 
-![home-and-navbar]()
-
 ### Course library
 On this page, the program receives the student's input, queries the database, writes the result into a Javascript Object Notation (JSON) file, and finally displays the data from the JSON in a visually appealing manner using HTML and CSS.
 
 Javascript is used to dynamically change the form fields based on the dropdown value. This is done by setting the `myInputElement.style.display` value to either `block` (show) or `none` (hide). There is also a need to set the `myInputElement.required` value to a boolean as hiding a field does not remove its requirement.
 
-![search-mode]()
-
-There are 3 search modes, `All`, `Course Code`, and `Course Name`. Each mode has different parameters to be filled up. A few search examples will be performed to showcase the robustness of the function. The text within quotation marks represent the search value.
+There are 3 search modes, `All`, `Course Code`, and `Course Name`. A few search examples were performed in the video to showcase the robustness of the function.
 
 1. Search by `All`
 2. Search by `Course Code`:
@@ -150,12 +144,8 @@ There are 3 search modes, `All`, `Course Code`, and `Course Name`. Each mode has
 - "and", Contains
 - When no search mode is selected
 
-![search-test]()
-
 ### Change password
 Changing passwords regularly is vital in securing online accounts. Hovering over "Account", you can see a "Change Password" option on the dropdown. Clicking on that option directs you to change your password.
-
-![hover-account]()
 
 Below are the test cases:
 
@@ -165,10 +155,6 @@ Below are the test cases:
 4. Wrong current password and valid new password: "@validpassword"
 5. Correct current password and valid new password
 When the password change is successful, the user will be logged out and will have to login again.
-
-![change-password-test]()
-
-![change-pw-success-re-login]()
 
 ### Password Hashing
 It is imperative to store hashed passwords in databases. If a database is compromised, sensitive information such as passwords stored in plaintext format may be leaked. Plaintext can be converted to ciphertext, through *hashing*.
